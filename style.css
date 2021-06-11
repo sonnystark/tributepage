@@ -62,7 +62,12 @@ img {
     display: block;
     box-sizing: border-box;
     padding: 1px 0 15px 0;
+    list-style-type: none;
 }
+
+    .fast-facts-list, li::before {
+        content: " » ";
+    }
 
 blockquote {
     background-color: bisque;
